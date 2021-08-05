@@ -1,0 +1,79 @@
+*{
+padding:0;
+margin:0;
+
+}
+.wrapper{
+background:url(Azzz.jpg);
+background-size:cover;
+height:100vh;
+}
+.navbar{
+height: 80px;
+width=100%;
+background:rgba(0,0,0,0.4);
+}
+.navbar ul{
+float:right;
+margin-right:20px;
+}
+.navbar ul li{
+list style:none;
+margin:0 8px;
+display:inline-block;
+line-height:80px;
+}
+.navbar ul li a{
+text-decoration:none;
+color:white;
+font-size:20 px;
+padding:6px 13px;
+font-family:'roboto',sans-serif;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+background:red;
+border-radius:2px;
+}
+.wrapper .center{
+position:absolute;
+top:50%;
+left:55%;
+transform:translate(-50%, -50%);
+font-family:sans-serif;
+}
+.center h1{
+font-size:70px;
+font-weight:bold;
+width:900px;
+text-align:center;
+color:rgba(0,0,0,0.6);
+}
+.center h2{
+font-size:25px;
+font-weight:bold;
+width:700px;
+text-align:right;
+color:rgba(0,0,0,0.6);
+}
+.center .buttons{
+margin:15px 350px;
+}
+.buttons button {
+height:27px;
+width=126px;
+font-size:18px;
+font-weight:none;
+color:#ffffff;
+background:#E51400;
+}
+footer{
+text-align:center;
+background-color:rgba(0,0,0,0.4);
+}
+footer h2{
+color:white;
+}
+
+
+
